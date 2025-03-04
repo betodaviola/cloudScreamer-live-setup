@@ -1,5 +1,5 @@
 #N canvas 827 239 734 565 12;
-#X obj 356 892 output~;
+#X obj 551 868 output~;
 #X obj 39 450 levels;
 #X obj 686 31 notein;
 #X obj 686 57 pack;
@@ -8,8 +8,12 @@
 #X obj 374 450 levels;
 #X obj 691 154 simph;
 #X obj 691 450 levels;
-#X connect 1 0 0 0;
-#X connect 1 1 0 1;
+#X obj 968 154 grains;
+#X obj 968 450 levelsStr;
+#X obj 1388 154 noiseMachine;
+#X obj 1388 450 levels;
+#X obj 1564 154 noiseOsc;
+#X obj 1564 450 levels;
 #X connect 2 0 3 0;
 #X connect 2 1 3 1;
 #X connect 3 0 5 0;
@@ -17,8 +21,8 @@
 #X connect 3 0 4 0;
 #X connect 4 0 1 0;
 #X connect 5 0 6 0;
-#X connect 6 0 0 0;
-#X connect 6 1 0 1;
 #X connect 7 0 8 0;
-#X connect 8 0 0 0;
-#X connect 8 1 0 1;
+#X connect 9 0 10 0;
+#X connect 9 1 10 1;
+#X connect 11 0 12 0;
+#X connect 13 0 14 0;
