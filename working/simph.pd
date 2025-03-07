@@ -189,6 +189,7 @@
 #X msg 104 436 all \$1;
 #X msg 157 436 all \$1;
 #X msg 183 409 all \$1;
+#X msg 341 27 0;
 #X connect 0 0 5 1;
 #X connect 0 0 63 0;
 #X connect 1 0 5 5;
@@ -244,6 +245,7 @@
 #X connect 30 0 74 0;
 #X connect 35 0 23 0;
 #X connect 36 0 37 0;
+#X connect 36 0 78 0;
 #X connect 37 0 4 0;
 #X connect 37 0 3 0;
 #X connect 37 0 2 0;
@@ -291,4 +293,5 @@
 #X connect 75 0 35 12;
 #X connect 76 0 35 14;
 #X connect 77 0 35 15;
+#X connect 78 0 24 0;
 #X coords 0 0 1 1 269 247 1 0 2;
