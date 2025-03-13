@@ -162,6 +162,7 @@
 #X obj 15 103 hsl 54 10 10 1000 0 0 empty empty depth -2 -8 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
 #X msg 469 51 300;
 #X msg 453 426 all \$1;
+#X obj -149 -15 r notes;
 #X connect 0 0 21 0;
 #X connect 0 0 19 2;
 #X connect 7 0 22 0;
@@ -256,4 +257,6 @@
 #X connect 77 0 79 0;
 #X connect 78 0 77 0;
 #X connect 79 0 53 9;
+#X connect 80 0 36 0;
+#X connect 80 0 33 0;
 #X coords 0 0 1 1 330 208 1 0 0;

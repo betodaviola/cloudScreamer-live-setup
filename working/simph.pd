@@ -173,7 +173,7 @@
 #X connect 19 0 3 1;
 #X restore 43 311 pd adsr-random2;
 #X floatatom 140 223 5 4 50 1 noise\ color \$0-noisecolor - 12;
-#X obj 11 223 hsl 119 17 4 50 0 0 \$0-noisecolor empty empty -2 -8 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
+#X obj 11 223 hsl 119 17 4 50 0 1 \$0-noisecolor empty empty -2 -8 0 10 #191919 #e1e1e1 #e1e1e1 0 1;
 #X msg -206 409 all \$1;
 #X msg -149 409 all \$1;
 #X msg -89 409 all \$1;
@@ -190,6 +190,7 @@
 #X msg 157 436 all \$1;
 #X msg 183 409 all \$1;
 #X msg 341 27 0;
+#X obj -209 -26 r notes;
 #X connect 0 0 5 1;
 #X connect 0 0 63 0;
 #X connect 1 0 5 5;
@@ -276,8 +277,8 @@
 #X connect 51 0 57 0;
 #X connect 51 0 58 0;
 #X connect 51 0 59 0;
-#X connect 61 0 5 15;
 #X connect 61 0 77 0;
+#X connect 61 0 5 15;
 #X connect 63 0 35 1;
 #X connect 64 0 35 3;
 #X connect 65 0 35 5;
@@ -294,4 +295,6 @@
 #X connect 76 0 35 14;
 #X connect 77 0 35 15;
 #X connect 78 0 24 0;
+#X connect 79 0 10 0;
+#X connect 79 0 7 0;
 #X coords 0 0 1 1 269 247 1 0 2;
