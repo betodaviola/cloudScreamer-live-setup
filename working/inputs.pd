@@ -49,7 +49,7 @@
 #X floatatom 101 123 4 0 0 2 vel - - 12;
 #X obj 126 419 outlet;
 #X text 126 445 note/vel;
-#X obj 352 -38 notein;
+#X obj 352 -70 notein;
 #X obj 352 -12 pack;
 #X text 101 9 MIDI;
 #X obj 157 32 knob 18 0 127 0 0 empty empty #191919 #696969 #E1E1E1 1 0 0 0 1 270 0 0 0 empty empty 0 12 6 -15 0 1 0 0;
